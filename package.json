@@ -1,0 +1,26 @@
+{
+  "name": "SPA-PAGE",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx webpack serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "webpack-cli": "^4.7.0"
+  },
+  "dependencies": {
+    "css-loader": "^5.2.6",
+    "html-webpack-plugin": "^5.3.1",
+    "latest-version": "^7.0.0",
+    "style-loader": "^2.0.0",
+    "ts-loader": "^9.2.2",
+    "webpack": "^5.37.1",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
